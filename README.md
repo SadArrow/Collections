@@ -7,4 +7,4 @@ It includes Meowww and Reversi, two of my major courses' projects.
 ## Research Projects
 It includes my previous projects; they're finished or withdrawn.
 
-An Onging project about VLA isn't uploaded.
+An Ongoing project about VLA isn't uploaded.
