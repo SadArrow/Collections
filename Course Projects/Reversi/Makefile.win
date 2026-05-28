@@ -1,0 +1,33 @@
+# Project: Reversi
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = ºÚ°×Æå_private.res
+OBJ      = main.o $(RES)
+LINKOBJ  = main.o $(RES)
+LIBS     = -L"E:/Dev-Cpp/MinGW64/lib" -L"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -lEasyX -lgdi32 -lole32 E:/Dev-Cpp/MinGW64/lib/libeasyx.a E:/Dev-Cpp/MinGW64/lib/libeasyx.a E:/Dev-Cpp/MinGW64/lib/libeasyx.a E:/Dev-Cpp/MinGW64/lib/libeasyx.a -g3
+INCS     = -I"E:/Dev-Cpp/MinGW64/include" -I"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"E:/Dev-Cpp/MinGW64/include" -I"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = ºÚ°×Æå.exe
+CXXFLAGS = $(CXXINCS) -Wextra -g3 -pipe -leasyx
+CFLAGS   = $(INCS) -Wextra -g3 -pipe
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+ºÚ°×Æå_private.res: ºÚ°×Æå_private.rc 
+	$(WINDRES) -i ºÚ°×Æå_private.rc --input-format=rc -o ºÚ°×Æå_private.res -O coff 
+

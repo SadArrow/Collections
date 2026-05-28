@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-de74ae4389bcb472199f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Meowww",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Meowww::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meowww-Debug-a11d107381f5ff7f87b4.json",
+					"name" : "Meowww",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Meowww_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meowww_autogen-Debug-b58cf8e82783dad256aa.json",
+					"name" : "Meowww_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Meowww_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meowww_autogen_timestamp_deps-Debug-84fe5a6547bfb2b951fd.json",
+					"name" : "Meowww_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/SadArrow/Desktop/Documents/Meowww/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/SadArrow/Desktop/Documents/Meowww"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
