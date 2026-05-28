@@ -1,0 +1,13 @@
+The parameters of SGBM are:
+minDisp = 0
+numDisp = 192
+blockSize = 7
+disp12MaxDiff = 1
+uniquenessRatio = 10
+speckleWindowSize = 10
+speckleRange = 1
+
+The estimation performance of terrains_2l is:
+EPE: 4.6627
+Bad 2: 16.81%
+Bad 3: 14.88%

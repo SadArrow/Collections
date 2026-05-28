@@ -1,0 +1,13 @@
+The parameters of SGBM are:
+minDisp = 0
+numDisp = 192
+blockSize = 7
+disp12MaxDiff = 1
+uniquenessRatio = 10
+speckleWindowSize = 10
+speckleRange = 1
+
+The estimation performance of delivery_area_3l is:
+EPE: 1.5286
+Bad 2: 19.96%
+Bad 3: 19.51%

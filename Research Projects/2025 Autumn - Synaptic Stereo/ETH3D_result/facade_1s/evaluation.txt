@@ -1,0 +1,13 @@
+The parameters of SGBM are:
+minDisp = 0
+numDisp = 192
+blockSize = 7
+disp12MaxDiff = 1
+uniquenessRatio = 10
+speckleWindowSize = 10
+speckleRange = 1
+
+The estimation performance of facade_1s is:
+EPE: 1.6922
+Bad 2: 27.02%
+Bad 3: 25.68%

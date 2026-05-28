@@ -1,0 +1,13 @@
+The parameters of SGBM are:
+minDisp = 0
+numDisp = 192
+blockSize = 7
+disp12MaxDiff = 1
+uniquenessRatio = 10
+speckleWindowSize = 10
+speckleRange = 1
+
+The estimation performance of playground_2l is:
+EPE: 7.7477
+Bad 2: 39.40%
+Bad 3: 37.32%

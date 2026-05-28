@@ -1,0 +1,6 @@
+--camera_width
+640
+--camera_height
+480
+--capture_warmup_renders
+1

@@ -1,0 +1,8 @@
+--camera_width
+640
+--camera_height
+480
+--capture_warmup_renders
+1
+--capture_probe_only
+--disable_videos
